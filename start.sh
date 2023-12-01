@@ -7,6 +7,6 @@ else
   git clone $UPSTREAM_REPO /Wednesday
 fi
 cd /Wednesday
-pip install -U -r requirements.txt
+pip3 install -U -r requirements.txt
 echo "Starting DQ-The-File-Donor...."
-python bot.py
+python3 bot.py
